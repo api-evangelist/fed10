@@ -1,7 +1,25 @@
 aid: fed10
 name: Fed10
-description: Fed10 is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Fed10 is a legislative-intelligence and government-affairs platform staffed
+  by AI agents. It continuously monitors legislation across U.S. state legislatures and
+  Congress, flags regulatory threats and opportunities relevant to a company's business,
+  and delivers actionable policy insights — the analysis a $500/hour policy consultant
+  produces in days, returned in seconds. Founded in 2026 by three former lobbyists and
+  backed by Y Combinator (Winter 2026), Fed10 packages bill tracking, amendment analysis,
+  compliance-gap assessment, and continuous legislative monitoring into an agentic
+  workflow for public-affairs and compliance teams.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.fed10.ai/favicon.png
 url: https://raw.githubusercontent.com/api-evangelist/fed10/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +27,37 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-yc-batch: Winter 2026
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Government
+- Legislative Intelligence
+- Government Affairs
+- Public Policy
+- AI Agents
+- GovTech
+- Regulatory Compliance
+- Bill Tracking
+- Y Combinator
 apis: []
+common:
+- type: Website
+  url: https://www.fed10.ai
+- type: PrivacyPolicy
+  url: https://www.fed10.ai/privacy
+- type: SignUp
+  name: Book a demo
+  url: https://calendly.com/armand-fed10/fed10-demos-1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
